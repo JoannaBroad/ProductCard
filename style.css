@@ -55,7 +55,7 @@ img {
   line-height: 1.4375rem;
   color: rgb(108, 114, 137);
 }
-.price-group{
+.price-group {
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -75,12 +75,26 @@ img {
   padding-bottom: 0.6rem;
 }
 /* button */
-.add-now {
+.button {
   width: 95%;
   align-items: center;
   justify-self: center;
+  background-color: rgb(61, 129, 104);
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 8px;
 }
-
+.add-now {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+}
+.icon {
+  width: 1rem;
+  height: 1rem;
+}
 /* footer */
 .attribution {
   font-size: 11px;
