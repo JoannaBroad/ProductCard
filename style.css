@@ -55,6 +55,11 @@ img {
   line-height: 1.4375rem;
   color: rgb(108, 114, 137);
 }
+.price-group{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
 .product-price {
   font-family: "Fraunces", serif;
   font-size: 2rem;
@@ -67,10 +72,11 @@ img {
   font-size: 0.8125rem;
   text-decoration: line-through;
   color: rgb(108, 114, 137);
+  padding-bottom: 0.6rem;
 }
 /* button */
 .add-now {
-  width: 90%;
+  width: 95%;
   align-items: center;
   justify-self: center;
 }
