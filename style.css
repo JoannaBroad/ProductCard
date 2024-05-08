@@ -85,10 +85,13 @@ img {
   gap: 0.5rem;
   border-radius: 8px;
 }
+.button:hover {
+  background-color: rgb(26, 64, 50);
+}
 .add-now {
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 700;
 }
 .icon {
@@ -103,3 +106,28 @@ img {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* meida queries */
+@media screen and (min-width: 920px) {
+  .card {
+    display: flex;
+    width: 70%;
+    height: 50%;
+    margin: 0;
+    border-radius: 10px;
+  }
+
+  .card picture {
+    flex: 1;
+  }
+
+  .card .textspace {
+    flex: 1;
+    padding: 1rem;
+  }
+    img {
+      border-radius: 10px 0px 0px 10px;
+      height: ;
+    }
+  }
+
